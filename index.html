@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NutriAI 隱私權政策 / Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --text: #1c1c1e;
+    --muted: #6e6e73;
+    --border: #e5e5ea;
+    --accent: #0a84ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --text: #f5f5f7;
+      --muted: #98989d;
+      --border: #2c2c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", sans-serif;
+    line-height: 1.7;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0 0 8px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 32px 0 8px;
+  }
+  p {
+    margin: 8px 0;
+    font-size: 15px;
+  }
+  ul {
+    margin: 8px 0;
+    padding-left: 20px;
+  }
+  li {
+    font-size: 15px;
+    margin: 4px 0;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .lang-divider {
+    margin: 64px 0 32px;
+    border: none;
+    border-top: 1px solid var(--border);
+  }
+  .contact {
+    background: rgba(10, 132, 255, 0.08);
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+  .toc {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <p class="toc"><a href="#zh">繁體中文</a> · <a href="#en">English</a></p>
+
+  <section id="zh">
+    <h1>NutriAI 隱私權政策</h1>
+    <p class="updated">最後更新日期：2026年8月</p>
+
+    <p>NutriAI（以下稱「本應用程式」或「我們」）重視你的隱私。本政策說明我們在你使用本應用程式時，如何蒐集、使用、儲存及保護你的個人資料。使用本應用程式即表示你同意本政策的內容。</p>
+
+    <h2>一、我們蒐集哪些資料</h2>
+    <p>1. 帳號資訊：透過Sign in with Apple登入時取得的電子郵件地址（或Apple提供的私人轉信地址）。</p>
+    <p>2. 健康檔案：性別、生日、身高、體重、活動量、健康目標，用於計算你的每日建議熱量。</p>
+    <p>3. 飲食與體重紀錄：你手動輸入或透過拍照辨識新增的飲食紀錄（食物名稱、份量、熱量、三大營養素）、體重紀錄。</p>
+    <p>4. 拍照辨識影像：使用AI拍照辨識功能時所拍攝或選取的照片。照片會傳送給第三方AI服務進行食物辨識，辨識完成後不會長期保留在我們的伺服器。</p>
+    <p>5. 使用偏好：語言、單位系統、推播通知開關等App內設定。</p>
+    <p>6. 訂閱狀態：透過App Store管理的訂閱方案（免費／Pro）。</p>
+    <p>7. 裝置資訊：若你開啟推播通知，我們會取得裝置的推播權杖（device token）以發送提醒通知。</p>
+
+    <h2>二、資料如何儲存與保護</h2>
+    <p>你的資料儲存在Supabase（第三方雲端資料庫服務）。所有資料傳輸皆透過HTTPS加密，資料庫並設有Row Level Security（列級安全性）規則，確保你只能存取自己的資料，任何其他使用者或未授權的第三方都無法讀取。</p>
+
+    <h2>三、我們如何使用你的資料</h2>
+    <ul>
+      <li>計算並顯示你的每日熱量與營養目標</li>
+      <li>提供飲食紀錄、歷史查詢、數據圖表等核心功能</li>
+      <li>處理AI拍照辨識與（未來上線的）AI飲食分析功能</li>
+      <li>發送你已開啟的推播提醒通知</li>
+      <li>依訂閱狀態提供對應功能權限</li>
+    </ul>
+    <p>我們不會將你的個人資料出售給第三方，也不會用於本政策所述以外的目的。</p>
+
+    <h2>四、第三方服務</h2>
+    <p>本應用程式使用以下第三方服務，這些服務可能依其各自的隱私政策處理你的資料：</p>
+    <ul>
+      <li>Apple（Sign in with Apple登入、App Store訂閱、推播通知服務）</li>
+      <li>Supabase（後端資料庫與使用者驗證）</li>
+      <li>AI服務供應商（用於AI拍照辨識與飲食分析功能，僅在你主動使用該功能時傳送必要資料）</li>
+      <li>廣告服務供應商（若App內顯示廣告，廣告網路可能依你的裝置授權狀態蒐集必要的廣告識別資訊）</li>
+    </ul>
+
+    <h2>五、你的權利</h2>
+    <p>你可以隨時在「我的」頁面編輯或更正你的健康檔案資料，也可以在「我的」頁面直接刪除帳號。刪除後你會立即被登出，且無法再存取你的飲食紀錄、體重紀錄與健康檔案；若你之後使用同一帳號重新登入，系統會自動恢復你先前的資料。如需徹底清除資料而不希望日後恢復，請透過下方聯絡信箱與我們聯繫。</p>
+
+    <h2>六、兒童隱私</h2>
+    <p>本應用程式不是針對13歲以下兒童設計，我們不會刻意蒐集兒童的個人資料。若你發現我們不慎蒐集了兒童資料，請與我們聯繫，我們會盡快刪除。</p>
+
+    <h2>七、政策更新</h2>
+    <p>我們可能不定期更新本政策，更新後會透過App內公告或更新此頁面告知你。若變更涉及重大內容，我們會以更顯著方式通知。</p>
+
+    <h2>八、聯絡我們</h2>
+    <p>若你對本政策有任何疑問，或想申請資料存取／刪除，請透過以下方式聯絡我們：</p>
+    <p class="contact">yugochentest@gmail.com</p>
+  </section>
+
+  <hr class="lang-divider">
+
+  <section id="en">
+    <h1>NutriAI Privacy Policy</h1>
+    <p class="updated">Last updated: August 2026</p>
+
+    <p>NutriAI ("the App", "we", "us") is committed to protecting your privacy. This Privacy Policy explains what data we collect when you use the App, how we use and store it, and how we protect it. By using the App, you agree to this policy.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p><strong>Account Information:</strong> The email address (or Apple-provided private relay address) obtained when you sign in with Sign in with Apple.</p>
+    <p><strong>Health Profile:</strong> Sex, birthday, height, weight, activity level, and health goal, used to calculate your recommended daily calorie target.</p>
+    <p><strong>Diet and Weight Logs:</strong> Meal entries you add manually or via photo recognition (food name, portion, calories, macronutrients), and weight entries you log.</p>
+    <p><strong>Photos for AI Recognition:</strong> Photos you capture or select when using the AI photo recognition feature. These photos are sent to a third-party AI service for food recognition and are not retained long-term on our servers after processing.</p>
+    <p><strong>App Preferences:</strong> Language, unit system, and notification settings you configure in the App.</p>
+    <p><strong>Subscription Status:</strong> Your subscription tier (Free or Pro), managed through the App Store.</p>
+    <p><strong>Device Information:</strong> If you enable push notifications, we collect your device's push notification token to deliver reminders.</p>
+
+    <h2>2. How Your Data Is Stored and Protected</h2>
+    <p>Your data is stored with Supabase, a third-party cloud database provider. All data in transit is encrypted via HTTPS. Our database enforces Row Level Security, ensuring you can only access your own data and no other user or unauthorized party can read it.</p>
+
+    <h2>3. How We Use Your Data</h2>
+    <ul>
+      <li>To calculate and display your daily calorie and nutrition targets</li>
+      <li>To provide core features such as meal logging, history, and stats charts</li>
+      <li>To power AI photo recognition and (upcoming) AI diet analysis features</li>
+      <li>To send reminder notifications you've opted into</li>
+      <li>To grant feature access based on your subscription status</li>
+    </ul>
+    <p>We do not sell your personal data to third parties, and we do not use it for purposes beyond those described here.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>The App relies on the following third-party services, which may process your data under their own privacy policies:</p>
+    <ul>
+      <li>Apple (Sign in with Apple, App Store subscriptions, push notification delivery)</li>
+      <li>Supabase (backend database and authentication)</li>
+      <li>AI service providers (for AI photo recognition and diet analysis, only when you actively use those features)</li>
+      <li>Advertising providers (if ads are shown in the App, the ad network may collect device identifiers you've authorized for advertising purposes)</li>
+    </ul>
+
+    <h2>5. Your Rights</h2>
+    <p>You can edit or correct your health profile at any time from the Profile tab, and you can delete your account directly from the Profile tab as well. Once deleted, you'll be signed out immediately and will no longer be able to access your meal logs, weight logs, or health profile; if you sign back in later with the same account, your previous data will be restored automatically. If you'd like your data permanently and irreversibly erased instead, please contact us using the email below.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>The App is not directed at children under 13, and we do not knowingly collect personal data from children. If you believe we have inadvertently collected a child's data, please contact us and we will delete it promptly.</p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. We'll notify you via an in-app notice or by updating this page. Material changes will be communicated more prominently.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have questions about this policy or wish to request access to or deletion of your data, please contact us at:</p>
+    <p class="contact">yugochentest@gmail.com</p>
+  </section>
+
+</div>
+</body>
+</html>
